@@ -1,0 +1,26 @@
+	Button btn1 = (Button) findViewById(R.id.button1);	
+	Button btn2 = (Button) findViewById(R.id.button2);	
+	
+	OnClickListener click = new OnClickListener() { 
+		@Override
+		public void onClick(View v) {
+		EditText et1 = (EditText) findViewById(R.id.editText1);
+		Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+		switch (v.getId()) { 
+		case R.id.button1:
+			
+	
+		intent.putExtra("name", " Hola "+et1.getText().toString());
+		
+		
+		break;
+		case R.id.button2:
+		intent.putExtra("name", " Adios "+et1.getText().toString());
+		break;
+		}
+		startActivity(intent);
+		} 
+		};
+		btn1.setOnClickListener(click);
+		btn2.setOnClickListener(click);
+	}
