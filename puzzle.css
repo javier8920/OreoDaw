@@ -1,0 +1,66 @@
+div#contenedor div{
+    position: relative;
+    float:left;
+    background: url("../images/minion.jpeg");
+    width: 241px;
+    height: 266.7px;
+    border: 1px solid black;
+    
+}
+div#contenedor div.clear{
+clear:both;
+    width: 0px;
+    height: 0px;
+}
+div#contenedor div:nth-child(4){
+clear: both;
+}
+
+div#contenedor div:nth-child(7){
+clear: both;
+}
+
+
+div#contenedor div#div1{
+background:url("../images/minion.jpeg") 0px 0px ; 
+}
+div#contenedor div#div1{
+ 
+    background:url("../images/minion.jpeg") -241px 0px ; 
+    
+}
+div#contenedor div#div2{
+     
+    background:url("../images/minion.jpeg") -482px 0px; 
+    
+}
+div#contenedor div#div3{
+     
+    background:url("../images/minion.jpeg") 0px -266.7px; 
+   
+}
+div#contenedor div#div4{
+    
+    background:url("../images/minion.jpeg") -241px -266.7px; 
+    
+}
+div#contenedor div#div5{
+ 
+    background:url("../images/minion.jpeg") -482px -266.7px; 
+    
+}
+div#contenedor div#div6{
+     
+    background:url("../images/minion.jpeg") 0px -533.4px; 
+    
+}
+div#contenedor div#div7{
+     
+    background:url("../images/minion.jpeg") -241px -533.4px; 
+    
+}
+div#contenedor div#div8{
+    
+    background:url("../images/minion.jpeg") -482px -533.4px; 
+    
+}
